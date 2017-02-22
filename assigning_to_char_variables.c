@@ -9,3 +9,7 @@ int main()
 	printf("%d\n%d\n%d\n",c,a,b);
 	printf("%d\n",'5'+'6');
 }
+
+//The correct way to assign digits to character variables is:
+
+char a='5',b='6';
