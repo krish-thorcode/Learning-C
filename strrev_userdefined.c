@@ -10,7 +10,7 @@ void xstrrev(char *s)
     int len=xstrlen(s);
     int i;
     char aux;
-    for(i=0;i<=len/2;i++)
+    for(i=0;i<len/2;i++)
     {
         aux=*(s+i);
         *(s+i)=*(s+len-1-i);
